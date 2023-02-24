@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=cyrillic");
+*{padding:0;
+margin:0;
+
+}
+.body{font-family: Roboto, sans-serif;
+   font-size: 32px;
+color:#fff;
+}
+.header{background-color:#007765;
+   height:84px;   
+   position: sticky;
+  top: 0;
+   
+}
+.header_content{margin:auto;
+   
+   font-size:24px;
+   display:flex;
+   max-width:1100px;
+padding-left:500px;
+padding-right:400px;}
+
+.menu_logo{margin:20px 0 19px;}
+.main_logo{width:184px;
+height:45px;}
+.main_menu{ margin: 28px 0 27px 0;
+   margin-left:auto;
+   
+}
+
+   .menu_list{list-style: none;
+      display:flex;
+          }
+          
+      .menu_item::after{
+      content: "|";
+      color: #fff;
+      padding-right: 16px;
+      padding-left:8px;
+   }
+  .menu_item:last-child::after {
+      display: none;
+   }
+   .menu_item_link{
+      color:#fff;
+      text-decoration: none ;}
+
+.section_1{background-image: url("images/bg1.png");
+   background-size: cover;
+   background-position: center;
+height:403px;
+display:flex;
+}
+.h1{font-size:72px;
+   color:#fff;
+ margin:auto;
+ font-weight: 500;
+   }
+.section_2{
+   background-color: #eee;
+padding:0 55px 60px;
+
+
+}
+.problem_text{max-width:1100px;
+      margin:auto;
+  margin-top:16px;
+  font-size: 32px;
+  }
+.paragraph_text{padding-bottom:40px;
+   color:#000;}
+.h2{color:#007765;
+   font-weight: 500;
+   text-align: center;
+font-size:64px;
+line-height: 75px;
+padding-top:48px;
+
+}
+.section_3{background-image: url("images/bg2.png");
+   background-size: cover;
+   background-position: center;
+display:flex;
+height:403px;}
+.text_3{max-width:893px;
+   text-align: center;
+   font-size:48px;
+   color:#fff;
+ margin:auto;
+font-weight: 500;
+font-style: italic;}
+.section_4{background-color: #fff;
+   margin:auto;
+   max-width:1100px;
+   padding:0 55px 60px;
+   
+}
+
+.section_4logo{padding-top: 16px;
+display:flex}
+.second_logo{width:115px;
+height:115px;
+margin-right:48px;}
+.section_5{background-color: #eee;
+padding:13px 55px;
+text-align: center;}
+.members_list{display:flex;
+   flex-wrap: wrap;
+ max-width: 1110px;
+margin:auto;
+padding:32px 55px 68px;}
+ 
+.member_card{padding:24px 91px 28px}
+.member_photo{width:168px;
+height:168px} 
+.member_name{font-size: 24px;
+font-weight: 700;
+color:#007765;
+padding-top:12px;
+}
+.member_work{font-size: 18px;
+color:#000}
+
+
+
+ .footer{background-color: #333333;
+   height:176px;
+} 
+.footer_content{font-size:18px;
+width:540px;
+margin:auto;
+padding:50px 0 62px;
+text-align: center;
+line-height: 21px;}    
